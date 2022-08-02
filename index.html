@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./Assets/style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <title>Weather Dashboard</title>
+</head>
+
+<body>
+  <header class="container-fluid">
+    <div class="row justify-content-center">
+      <h1>Weather Dashboard</h1>
+    </div>
+  </header>
+
+  <div class="container containerDisplay sideCard">
+    <div class="row">
+      <aside class="col-sm-3 containerDisplay order-12 order-sm-1">
+        <form action="submit" id="search-city">
+          <label for="">Enter City:</label>
+          <input type="text" id="text-city" aria-label="Search">
+        </form>
+        <div id="searchHistory"></div>
+      </aside>
+
+      <main class="col-sm-9 order-1 order-sm-12">
+        <div class="container containerDisplay mainContent">
+          <div class="row align-items-center">
+            <h2 class="city">Today's Weather</h2>
+            <span id="currentDate"></span>
+            <span id="currentDescription" class="weatherDescription"></span>
+            <img id="currentIcon">
+          </div>
+
+          <div class="row justify-content-between">
+            <div class="col cardDisplay">
+              <h3>Temp.</h3>
+              <p class="temp numberDisplay"></p>
+            </div>
+            <div class="col cardDisplay">
+              <h3>Humidity</h3>
+              <p class="humidty numberDisplay"></p>
+            </div>
+            <div class="col cardDisplay">
+              <h3>Wind Speed</h3>
+              <p class="wind numberDisplay"></p>
+            </div>
+            <div class="col cardDisplay">
+              <h3>UV Index</h3>
+              <p class="UV numberDisplay"></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container containerDisplay mainContent">
+          <h2>5-Day Forecast</h2>
+          <div class="row justify-content-between">
+            <div class="col cardDisplay" data-card="0">
+              <h3 class="forecastDate"></h3>
+            </div>
+            <div class="col cardDisplay" data-card="1">
+              <h3 class="forecastDate"></h3>
+            </div>
+            <div class="col cardDisplay" data-card="2">
+              <h3 class="forecastDate"></h3>
+            </div>
+            <div class="col cardDisplay" data-card="3">
+              <h3 class="forecastDate"></h3>
+            </div>
+            <div class="col cardDisplay" data-card="4">
+              <h3 class="forecastDate"></h3>
+            </div>
+          </div>
+        </div>
+      </main>
+
+
+    </div>
+  </div>
+
+  <script src="./Assets/script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+
+</html>
