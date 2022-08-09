@@ -1,0 +1,125 @@
+h1 {
+    font-size: 50px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    background-color: #edc05f;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    box-shadow: 0px 6px 45px 2px rgba(92,92,92,0.57);
+    margin-bottom: 50px;
+}
+
+body {
+    background-position: center;
+    background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+}
+
+.sideCard {
+    background-color: #878ae9;
+    box-shadow: 0px 6px 45px 3px rgba(92,92,92,0.57);
+}
+
+.containerDisplay {
+    border-radius: 12px;
+    padding: 20px 50px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.mainContent {
+    min-height: 200px;
+    background-color: white;
+    padding: 20px;
+}
+
+.cardDisplay {
+    border: 1px solid grey;
+    border-radius: 15px;
+    min-height: 100px;
+    margin: 15px 20px 0 15px;
+    padding: 5px;
+    text-align: center;
+}
+
+
+aside {
+    background-color: white;
+    padding: 0;
+}
+
+input {
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+li {
+    list-style-type:none;
+    margin: 10px 0;
+    padding: 5px;
+    width: 150px;
+    border: 0.04rem solid black;
+    border-radius: 5px;
+    font-weight: 400;
+}
+
+h2 {
+    margin: 0 20px;
+}
+
+#currentDate {
+    font-size: 20px;
+    margin: 0 20px;
+    padding-top: 5px;
+    font-weight: 400;
+}
+
+#currentDescription {
+    margin: 7px 20px 0 20px;
+    font-weight: 400;
+}
+
+.weatherDescription {
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+
+.UV {
+    background-color: red;
+    color: white;
+}
+
+
+h4 {
+    font-size: 22px;
+}
+
+.displayNumber {
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.forecastNumber {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.forecastHumid {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.units {
+    font-size: 15px;
+    font-weight: 300;
+}
